@@ -6,7 +6,10 @@ function love.load()
   img = love.graphics.newImage('images/personnage.png')
 
   --Get Dimensions de la fenêtre
-
+  hauteur, largeur = love.window.getMode()
+  print("merde")
+  print(hauteur)
+  print(largeur)
   
   --Print en console les dimensions de la fenêtre
  
